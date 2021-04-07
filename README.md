@@ -8,3 +8,10 @@ Use a `.ENV` file to set options:
 WEBHOOK_URL=http://webhook.url
 WATCH_PATH=\\path\to\watch
 ```
+`service.js` requires node-windows to be installed and linked.
+```
+npm i -g node-windows
+
+Within the repo directory:
+npm link node-windows
+```
